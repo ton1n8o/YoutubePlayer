@@ -1,0 +1,9 @@
+
+## Xcode settings
+
+# Xcode user interface state
+*.xcuserstate
+
+# Xcode break points
+*.xcbkptlist
+
