@@ -123,11 +123,11 @@ class ViewController: UIViewController, UIWebViewDelegate {
         webView.loadHTMLString(html, baseURL: nil)
     }
     
-    func onEnterFullScreen() {
+    @objc func onEnterFullScreen() {
         print("Enter fullscreen")
     }
     
-    func onCloseFullScreen() {
+    @objc func onCloseFullScreen() {
         print("Exit fullscreen")
     }
 
